@@ -1,7 +1,7 @@
 How to Remotely Debug Java Applications on Cloud Foundry
 PROCEDURE
 1. Enable the JBP_CONFIG_DEBUG environment variable, this can be done by editing application manifest.yml or invoking the "cf set-env" command. In this article, we use application manifest as an example.
-
+```
 ---
 applications:
 - name: <APP_NAME>
@@ -10,6 +10,7 @@ applications:
  path: path/java-app.war
  env:
    JBP_CONFIG_DEBUG: '{enabled: true}'
+```
 2. Use "cf push" to deploy the Java application to PCF or Pivotal Web Services.
 
 3. Set up the SSH tunnel for the debug framework via JDWP. 
