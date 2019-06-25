@@ -15,7 +15,7 @@ applications:
 
 3. Set up the SSH tunnel for the debug framework via JDWP. 
 
-__*cf ssh -N -T -L 8000:localhost:8000 <APP_NAME>*__
+>__*cf ssh -N -T -L 8000:localhost:8000 <APP_NAME>*__
 
 Once the SSH tunnel has been created, Eclipse/STS should connect to the localhost:8000 for debug access. Please refer to the detailed instructions in the Java Buildpack Debug Framework. 
 
