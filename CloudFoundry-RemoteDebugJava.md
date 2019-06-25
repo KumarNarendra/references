@@ -20,6 +20,6 @@ applications:
 Once the SSH tunnel has been created, Eclipse/STS should connect to the localhost:8000 for debug access. Please refer to the detailed instructions in the Java Buildpack Debug Framework. 
 
 
-
+![](images/Remote-debug-cloudfoundry.jpeg)
 
 
